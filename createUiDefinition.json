@@ -54,7 +54,7 @@
                 "toolTip": "This limit doesn't apply to the following tables: SecurityAlert, SecurityBaseline, SecurityBaselineSummary, SecurityDetection, SecurityEvent, WindowsFirewall, MaliciousIPCommunication, LinuxAuditLog, SysmonEvent, ProtectionStatus, WindowsEvent. [Learn more](https://learn.microsoft.com/azure/azure-monitor/logs/daily-cap)",
                 "constraints": {
                     "required": true,
-                    "regex": "^[0-9]\.?[0-9]{1,3}$",
+                    "regex": "^[0-9].[0-9]{1,3}$",
                     "validationMessage": "Only numbers allowed, and the value must be 1-4 characters long."
                 },
                 "visible": true
